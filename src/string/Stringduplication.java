@@ -19,9 +19,11 @@ public class Stringduplication {
 					  count++;
 					  break;
 				 }
+				 m.put(s1[i],count);
+				 
 			 }
-			 m.put(s1[i],count);
 			 System.out.println("Duplication of values are:"+m);
+			
 		 }
 
 	}

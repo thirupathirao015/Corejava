@@ -3,7 +3,7 @@ package array;
 public class Dup {
 
 	public static void main(String[] args) {
-		 int array[]={1,2,1,2,3};
+		 int array[]={1,2,3,1,2,3,4};
 		 int n=array.length;
 		 for(int i=0;i<n;i++)
 		 {
@@ -18,7 +18,11 @@ public class Dup {
 				 								array[k]=array[k+1] ;
 				 							}
 				 					}n--;
-				 			}else{j++;}
+				 			 }
+				 			else
+				 			{
+				 				j++;
+				 			}
 			 }
 		 }
 		 for(int i=0;i<n;i++)

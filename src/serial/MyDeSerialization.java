@@ -8,6 +8,7 @@ public class MyDeSerialization {
 	public static void main(String[] args) {
 		FileInputStream fin;
 		try {
+			
 			fin = new FileInputStream("E:\\rtr");
 		
 	    ObjectInputStream bin = new ObjectInputStream(fin);

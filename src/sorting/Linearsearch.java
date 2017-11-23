@@ -3,7 +3,7 @@ package sorting;
 public class Linearsearch {
 
 	public static void main(String[] args) {
-        
+         
         int arr[] = {0,2879, 15, 29, 78, 26, 24, 44, 167, 13,24,47};
         int i;   
         int s = 24;

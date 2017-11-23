@@ -5,7 +5,7 @@ public class Armstrong {
 
 	public static void main(String[] args) {
 		
-		 int rem,sum=0,n=150,n1;
+		 int rem,sum=0,n=153,n1;
 		  n1=n;
 		  	while(n>0)
 		  	{ 
